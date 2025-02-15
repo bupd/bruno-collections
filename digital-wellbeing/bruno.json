@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "digital-wellbeing",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
