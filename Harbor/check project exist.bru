@@ -1,0 +1,16 @@
+meta {
+  name: check project exist
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://demo.goharbor.io/api/v2.0/projects/7773
+  body: none
+  auth: basic
+}
+
+auth:basic {
+  username: robot_accessusers
+  password: oaCxgSM4Vg80Fi1pgYo9dJNKY4c2RBxwg
+}
