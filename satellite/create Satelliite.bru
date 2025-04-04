@@ -1,0 +1,17 @@
+meta {
+  name: create Satelliite
+  type: http
+  seq: 6
+}
+
+post {
+  url: http://gcc.kube.bupd.xyz/satellites/register
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "sat1"
+  }
+}
